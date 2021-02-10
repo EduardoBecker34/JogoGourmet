@@ -1,6 +1,7 @@
 package br.com.gourmet.data.model;
 
 public class Jogo {
+	
 	private static Nodo nodoInicial = montaNodoInicial();
 	private Nodo nodoAtual;
 	private Nodo nodoAnterior;
@@ -40,7 +41,6 @@ public class Jogo {
 		Nodo nodoLasanha = new Nodo("lasanha", null, null);
 		Nodo nodoBolo = new Nodo("bolo de chocolate", null, null);
 		Nodo nodoInicial = new Nodo("massa", nodoLasanha, nodoBolo);
-		System.out.println("Montado nodo inicial.");
 		return nodoInicial;
 	}
 }

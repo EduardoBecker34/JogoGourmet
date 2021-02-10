@@ -28,7 +28,7 @@ public class ControllerGUI {
 		panel.setLayout(new GridBagLayout());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		// Especifica valores par alinhamentos
+		// Especifica valores para alinhamentos
 		GridBagConstraints gbc = new GridBagConstraints();
 		gbc.gridwidth = GridBagConstraints.REMAINDER;
 
